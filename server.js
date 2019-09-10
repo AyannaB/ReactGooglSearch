@@ -13,6 +13,6 @@ if (process.env.NODE_ENV === "production") {
 }
 
 app.use((req, res) =>
-    res.sendFile(path.join(__dirname, "client/public/index.html")))
+    res.sendFile(path.join(__dirname, "/client/public/index.html")))
 
 app.listen(PORT, () => console.log("Listening on PORT: " + PORT))

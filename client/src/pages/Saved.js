@@ -7,7 +7,7 @@ import BookImg from "../components/BookImg";
 import API from "../utils/API";
 import Fade from 'react-reveal/Fade';
 
-// The 'saved' page holds any saved books the user might have, or displays a message if they haven't saved anything yet
+// Takes note is a person has or hasn't saved a book 
 class Saved extends Component {
   state = {
     books: []
